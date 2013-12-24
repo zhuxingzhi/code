@@ -11,7 +11,8 @@
 typedef enum {
     
     FLDynamicTypeSnap = 0,
-    FLDynamicTypePush
+    FLDynamicTypePush,
+    FLDynamicTypeAttachment
     
 }FLDynamicType;
 

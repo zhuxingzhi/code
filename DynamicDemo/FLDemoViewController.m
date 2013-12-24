@@ -10,6 +10,7 @@
 #import "FLDemoView.h"
 #import "FLSnapView.h"
 #import "FLPushView.h"
+#import "FLAttachmentView.h"
 
 @interface FLDemoViewController ()
 
@@ -30,6 +31,10 @@
         
         case FLDynamicTypePush: // 推动效果
             demoView = [[FLPushView alloc] initWithFrame:self.view.bounds];
+            
+        case FLDynamicTypeAttachment: // 刚性附着效果
+            demoView = [[FLAttachmentView alloc] initWithFrame:self.view.bounds];
+            
         default:
             break;
     }
