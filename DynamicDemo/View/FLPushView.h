@@ -1,13 +1,13 @@
 //
-//  FLViewController.h
+//  FLPushView.h
 //  DynamicDemo
 //
 //  Created by Liu Feng on 13-12-24.
 //  Copyright (c) 2013年 Liu Feng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FLDemoView.h"
 
-@interface FLViewController : UITableViewController
+@interface FLPushView : FLDemoView
 
 @end

@@ -21,6 +21,10 @@
 		032BF41818691F8400E3B3D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BF3FA18691F8400E3B3D4 /* UIKit.framework */; };
 		032BF42018691F8400E3B3D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 032BF41E18691F8400E3B3D4 /* InfoPlist.strings */; };
 		032BF42218691F8400E3B3D4 /* DynamicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032BF42118691F8400E3B3D4 /* DynamicDemoTests.m */; };
+		032BF42D1869209700E3B3D4 /* FLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032BF42C1869209700E3B3D4 /* FLDemoViewController.m */; };
+		032BF437186930C400E3B3D4 /* FLDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032BF436186930C400E3B3D4 /* FLDemoView.m */; };
+		03BBB249186946F400F815AB /* FLSnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BBB248186946F400F815AB /* FLSnapView.m */; };
+		03BBB24C18694A9E00F815AB /* FLPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BBB24B18694A9E00F815AB /* FLPushView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		032BF41D18691F8400E3B3D4 /* DynamicDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicDemoTests-Info.plist"; sourceTree = "<group>"; };
 		032BF41F18691F8400E3B3D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		032BF42118691F8400E3B3D4 /* DynamicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicDemoTests.m; sourceTree = "<group>"; };
+		032BF42B1869209700E3B3D4 /* FLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDemoViewController.h; sourceTree = "<group>"; };
+		032BF42C1869209700E3B3D4 /* FLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDemoViewController.m; sourceTree = "<group>"; };
+		032BF435186930C400E3B3D4 /* FLDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDemoView.h; sourceTree = "<group>"; };
+		032BF436186930C400E3B3D4 /* FLDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDemoView.m; sourceTree = "<group>"; };
+		03BBB247186946F400F815AB /* FLSnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSnapView.h; sourceTree = "<group>"; };
+		03BBB248186946F400F815AB /* FLSnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSnapView.m; sourceTree = "<group>"; };
+		03BBB24A18694A9E00F815AB /* FLPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPushView.h; sourceTree = "<group>"; };
+		03BBB24B18694A9E00F815AB /* FLPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPushView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +124,14 @@
 		032BF3FC18691F8400E3B3D4 /* DynamicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				032BF4311869300D00E3B3D4 /* view */,
 				032BF40518691F8400E3B3D4 /* FLAppDelegate.h */,
 				032BF40618691F8400E3B3D4 /* FLAppDelegate.m */,
 				032BF40818691F8400E3B3D4 /* Main.storyboard */,
 				032BF40B18691F8400E3B3D4 /* FLViewController.h */,
 				032BF40C18691F8400E3B3D4 /* FLViewController.m */,
+				032BF42B1869209700E3B3D4 /* FLDemoViewController.h */,
+				032BF42C1869209700E3B3D4 /* FLDemoViewController.m */,
 				032BF40E18691F8400E3B3D4 /* Images.xcassets */,
 				032BF3FD18691F8400E3B3D4 /* Supporting Files */,
 			);
@@ -150,6 +165,20 @@
 				032BF41E18691F8400E3B3D4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032BF4311869300D00E3B3D4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				032BF435186930C400E3B3D4 /* FLDemoView.h */,
+				032BF436186930C400E3B3D4 /* FLDemoView.m */,
+				03BBB247186946F400F815AB /* FLSnapView.h */,
+				03BBB248186946F400F815AB /* FLSnapView.m */,
+				03BBB24A18694A9E00F815AB /* FLPushView.h */,
+				03BBB24B18694A9E00F815AB /* FLPushView.m */,
+			);
+			name = view;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +282,10 @@
 				032BF40718691F8400E3B3D4 /* FLAppDelegate.m in Sources */,
 				032BF40318691F8400E3B3D4 /* main.m in Sources */,
 				032BF40D18691F8400E3B3D4 /* FLViewController.m in Sources */,
+				032BF42D1869209700E3B3D4 /* FLDemoViewController.m in Sources */,
+				03BBB249186946F400F815AB /* FLSnapView.m in Sources */,
+				032BF437186930C400E3B3D4 /* FLDemoView.m in Sources */,
+				03BBB24C18694A9E00F815AB /* FLPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +494,7 @@
 				032BF42718691F8400E3B3D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		032BF42818691F8400E3B3D4 /* Build configuration list for PBXNativeTarget "DynamicDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +503,7 @@
 				032BF42A18691F8400E3B3D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
