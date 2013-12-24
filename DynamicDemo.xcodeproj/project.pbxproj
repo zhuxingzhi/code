@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03227F8C1869657800AFCAD1 /* FLAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03227F8B1869657800AFCAD1 /* FLAttachmentView.m */; };
+		03227F8F1869784A00AFCAD1 /* FLSpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03227F8E1869784A00AFCAD1 /* FLSpringView.m */; };
 		032BF3F718691F8400E3B3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BF3F618691F8400E3B3D4 /* Foundation.framework */; };
 		032BF3F918691F8400E3B3D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BF3F818691F8400E3B3D4 /* CoreGraphics.framework */; };
 		032BF3FB18691F8400E3B3D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032BF3FA18691F8400E3B3D4 /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		03227F8A1869657800AFCAD1 /* FLAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAttachmentView.h; sourceTree = "<group>"; };
 		03227F8B1869657800AFCAD1 /* FLAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAttachmentView.m; sourceTree = "<group>"; };
+		03227F8D1869784A00AFCAD1 /* FLSpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLSpringView.h; sourceTree = "<group>"; };
+		03227F8E1869784A00AFCAD1 /* FLSpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLSpringView.m; sourceTree = "<group>"; };
 		032BF3F318691F8400E3B3D4 /* DynamicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		032BF3F618691F8400E3B3D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		032BF3F818691F8400E3B3D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -181,6 +184,8 @@
 				03BBB24B18694A9E00F815AB /* FLPushView.m */,
 				03227F8A1869657800AFCAD1 /* FLAttachmentView.h */,
 				03227F8B1869657800AFCAD1 /* FLAttachmentView.m */,
+				03227F8D1869784A00AFCAD1 /* FLSpringView.h */,
+				03227F8E1869784A00AFCAD1 /* FLSpringView.m */,
 			);
 			name = view;
 			path = View;
@@ -289,6 +294,7 @@
 				032BF40D18691F8400E3B3D4 /* FLViewController.m in Sources */,
 				03227F8C1869657800AFCAD1 /* FLAttachmentView.m in Sources */,
 				032BF42D1869209700E3B3D4 /* FLDemoViewController.m in Sources */,
+				03227F8F1869784A00AFCAD1 /* FLSpringView.m in Sources */,
 				03BBB249186946F400F815AB /* FLSnapView.m in Sources */,
 				032BF437186930C400E3B3D4 /* FLDemoView.m in Sources */,
 				03BBB24C18694A9E00F815AB /* FLPushView.m in Sources */,

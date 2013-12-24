@@ -10,4 +10,6 @@
 
 @interface FLAttachmentView : FLDemoView
 
+@property (strong, nonatomic) UIAttachmentBehavior *attachment;
+
 @end

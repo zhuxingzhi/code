@@ -26,9 +26,7 @@
         
         // 3. 创建仿真
         _animator = [[UIDynamicAnimator alloc] initWithReferenceView:self];
-        
-
-        
+                
     }
     return self;
 }
