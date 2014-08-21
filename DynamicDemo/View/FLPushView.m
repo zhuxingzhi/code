@@ -89,7 +89,7 @@
             
             _push.active = YES;
             _push.angle = atan2f(offset.y, offset.x); // 角度
-            _push.magnitude = sqrtf(offset.x * offset.x + offset.y * offset.y) / 50; // 推动力量
+            _push.magnitude = sqrtf(powf(offset.x, 2) +powf(offset.y, 2)) / 50; // 推动力量
             
         }
         

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cgm-T6-dtP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="cgm-T6-dtP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Dynamic演练-->
+        <!--View Controller - 物理仿真模拟-->
         <scene sceneID="VM2-Vm-KXd">
             <objects>
                 <tableViewController id="OFk-Cf-5I0" customClass="FLViewController" sceneMemberID="viewController">
@@ -32,7 +32,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Dynamic演练" id="ooQ-52-EJR">
+                    <navigationItem key="navigationItem" title="物理仿真模拟" id="ooQ-52-EJR">
                         <barButtonItem key="backBarButtonItem" title="返回" id="1af-Hi-rav"/>
                     </navigationItem>
                 </tableViewController>
